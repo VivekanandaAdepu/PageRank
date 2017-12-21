@@ -1,0 +1,18 @@
+1.Make sure you have hadoop installed.
+2.These programs were written and executed using cloudera using script files.
+The jar file that consists of all the programs is PageRank.jar
+3. For Executing PageRank.java Execute PageRank.sh
+
+Step-1: Executes "job"
+	This deletes the previously created output files and calculates the LinkGraph creating an output as "output/LinkGraph" directory.
+Step-2: Executes "job1" iteratively for 10 times
+	This calculates the PageRank values creating 10 output files from ranks0 to ranks9 in "output" directory.
+Step-3: Executes "job2"
+	This cleansup and sorts the PageRank values creating an output file named CleanSort in "output" directory.
+
+Failed Attempts for perfection:
+Tried to use unicode directionality sequencing in left to right format, considering the fact that Arabic terms are used in the input file, but the code that has been generated does require additional functionality. Since time is a constraint I just ignored it.
+
+
+
+
